@@ -2,6 +2,18 @@
 This module allows you to navigate throught a json file
 """
 import json
+import twitter2
+
+def generating_json(file_name: str):
+    """
+Generates json file with given name, by default in a current directory
+    """
+    data_strr = twitter2.create_json(account)
+    with open(file_name, "w") as file:
+        json.dump(data_strr, file, indent =4)
+    return file_name
+
+
 def user_input(type: str) -> str:
     """
 Gets user's input which determines the next step
@@ -43,4 +55,5 @@ Main loop which walks trought json file
             break
 
 if __name__ == "__main__":
-    navigation("web.json")
+    account = input("Enter username: ")
+    navigation(generating_json("new.json"))
