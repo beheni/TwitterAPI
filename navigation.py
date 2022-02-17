@@ -23,28 +23,24 @@ Main loop which walks trought json file
         data = json.load(file)
     while True:
         if isinstance(data, list):
-            next = user_input("list")
-            while True:
-                try:
-                    print("List has {0} items ".format(len(data)))
-                    data = data[int(next)-1]
-                    break
-                except:
-                    print("Wrong index")
-                    next = user_input("list")
+            try:
+                print("List has {0} items ".format(len(data)))
+                next = user_input("list")
+                data = data[int(next)-1]
+            except:
+                print("Wrong index")
+                next = user_input("list")
         elif isinstance(data, dict):
-            next = user_input("dict")
-            while True:
-                try:
-                    print("Dictionary has such keys: {0}".format(list(data.keys())))
-                    data = data[next]
-                    break
-                except:
-                    print("No such key in a dictionary")
-                    next = user_input("dict")
+            try:
+                print("Dictionary has such keys: {0}".format(list(data.keys())))
+                next = user_input("dict")
+                data = data[next]
+            except:
+                print("No such key in a dictionary")
+                next = user_input("dict")
         else:
             print(data)
             break
 
 if __name__ == "__main__":
-    navigation("twitter.json")
+    navigation("web.json")
