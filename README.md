@@ -10,7 +10,7 @@ Try it yourself: [click here](http://beheni.pythonanywhere.com/)
 ### Technologies and libraries used
 - **Flask** for creating a web server
 - **Twitter API** for collecting data from twitter
-- **Nominatium** for getting coordinates 
+- **Nominatim** for getting coordinates 
 - **Folium** for creating a map using python
 ### Usage
 You have to have your own elevated keys for Twitter API from [here](https://developer.twitter.com/en/products/twitter-api) and you have to insert them [here](https://github.com/beheni/TwitterAPI/blob/main/hidden.py)
