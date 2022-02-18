@@ -10,7 +10,7 @@ Generates json file with given name, by default in a current directory
     """
     data_strr = twitter2.create_json(account)
     with open(file_name, "w") as file:
-        json.dump(data_strr, file, indent =4)
+        json.dump(data_strr, file, indent =4, ensure_ascii=False)
     return file_name
 
 
@@ -56,4 +56,4 @@ Main loop which walks trought json file
 
 if __name__ == "__main__":
     account = input("Enter username: ")
-    navigation(generating_json("new.json"))
+    navigation(generating_json("twitter2.json"))
