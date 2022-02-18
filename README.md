@@ -2,7 +2,7 @@
 Usage of Twitter API
 
 ## Analysing json file
-Module [navigation.py](https://github.com/beheni/TwitterAPI/blob/main/navigation.py) generates and navigates throught JSON file with twitter data receieved from [twitter2](https://github.com/beheni/TwitterAPI/blob/main/twitter2.py) module
+Module [navigation.py](https://github.com/beheni/TwitterAPI/blob/main/navigation.py) generates and navigates throught (using terminal) JSON file with twitter data receieved from [twitter2](https://github.com/beheni/TwitterAPI/blob/main/twitter2.py) module
 
 ## Web App
 Displays an HTML map with markers on friends location
