@@ -1,3 +1,6 @@
+"""
+Receives user's data from twitter
+"""
 import urllib.request, urllib.parse, urllib.error
 import twurl
 import json
@@ -14,16 +17,14 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 
-def create_json(account: str):
+def create_json(account: str) -> dict:
+    """
+Returns data as a dictionary
+    """
     url = twurl.augment(TWITTER_URL,
                         {'screen_name': account})
     connection = urllib.request.urlopen(url, context=ctx)
     data = connection.read().decode()
     js = json.loads(data)
-
-    # with open("twitter2.json", "w") as f:
-    #     json.dump(js, f, ensure_ascii=False, indent=4)
-    
+   
     return js
-
-# print(create_json("demchvk"))
