@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+<!DOCTYPE html>
+<div id="cover">
+  <form action= "/reroute" method = "POST">
+    <div class="tb">
+      <div class="td"><input type="text" placeholder="Enter Username" id= "name" name = "name" required></div>
+      <div class="td" id="s-cover">
+        <button type="submit" value="Submit">
+          <div id="s-circle"></div>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
