@@ -5,8 +5,8 @@ Laboratory work #2
 Module [navigation.py](https://github.com/beheni/TwitterAPI/blob/main/navigation.py) generates and navigates throught (using terminal) JSON file with twitter data receieved from [twitter2](https://github.com/beheni/TwitterAPI/blob/main/twitter2.py) module
 
 ## Web App
-Displays an HTML map with markers on friends' (people you follow) locations.
-Try it yourself: [click here](http://beheni.pythonanywhere.com/)
+Displays an HTML map with markers on friends' (people you follow) locations <br>
+**Try it yourself:** [click here](http://beheni.pythonanywhere.com/)
 ### Technologies and libraries used
 - **Flask** for creating a web server
 - **Twitter API** for collecting data from twitter
