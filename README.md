@@ -17,8 +17,9 @@ You have to have your own elevated keys for Twitter API from [here](https://deve
 
 ### Visuals
 #### Starting page
-![image site]()
+
+![Screenshot from 2022-02-18 13-09-54](https://user-images.githubusercontent.com/91615487/154671845-d036b62b-a354-4e39-a71a-221025187163.png)
 #### Map
 My followings:
 
-![Screenshot from 2022-02-18 11-17-34](https://user-images.githubusercontent.com/91615487/154653860-61e3315b-4bdd-4c7b-80be-e689e34eb143.png)
+![Screenshot from 2022-02-18 12-24-35](https://user-images.githubusercontent.com/91615487/154671840-ed9a10d6-a615-4f8a-bbc6-d2b3397d49aa.png)
