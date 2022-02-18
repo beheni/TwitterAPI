@@ -6,7 +6,7 @@ Module [navigation.py](https://github.com/beheni/TwitterAPI/blob/main/navigation
 
 ## Web App
 Displays an HTML map with markers on friends location
-Try it yourself! [click here](http://beheni.pythonanywhere.com/)
+Try it yourself: [click here](http://beheni.pythonanywhere.com/)
 ### Technologies and libraries used
 - **Flask** for creating a web server
 - **Twitter API** for collecting data from twitter
